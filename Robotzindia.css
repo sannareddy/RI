@@ -1,0 +1,240 @@
+body{
+	font-family: Lato;
+}
+#header_r{
+	height: 80px;
+}
+#main_menu_c{
+	width: 101% !important;
+	margin-left: -0.5% !important;
+}
+#main_menu{	
+	background-color: #111B59;
+	height: 40px;
+}
+#main_menu .item{
+	height: 40px;
+}
+
+#main_menu .item:hover{
+	color:#FF6500 !important;
+	background-color: #111B59;
+}
+#main_menu i.facebook,#main_menu i.twitter {
+	font-size: 20px;
+	color:white !important;
+	opacity: 1;
+}
+#main_menu i.facebook:hover,#main_menu  i.twitter:hover {
+		color:#FF6500 !important;
+}
+#search_box{
+	margin-top: 2px;
+	color: #111B59;
+	border-radius: 0px;
+}
+#robotz_india_logo{
+	padding-top: 10px !important;
+	box-sizing: border-box;
+	padding-left: 10px !important;
+}
+#robotz_india_logo img{
+	height: 60px;
+}
+#header_links{
+	position: absolute;
+	bottom: 0px;
+	text-align: right;
+}
+#header_links span{
+	display: inline-block;
+	width: 25%;	
+}
+#header_links span a{
+	color: #111B59;
+}
+#header_links span a:hover{
+	color: #FF6500;
+}
+#banner_slider .item{
+	height:400px;
+}
+#slide_one{
+	background-image:url('../Images/slider1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:50%;
+}
+#slide_two{
+	background-image:url('../Images/slider2.1.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-color: black;
+}
+#slide_three{
+	background-image:url('../Images/slider4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10% 60%;
+	background-color: white;
+}
+#banner_slider .owl-pagination{
+	margin-top: -40px;
+	z-index:100;		
+}
+
+#banner_slider .owl-pagination .owl-page span{
+	background-color: transparent !important;
+	border: 2px solid white;
+	opacity:0.99;
+}
+#banner_slider .owl-pagination .owl-page.active span{
+	background:  blue !important;	
+}
+
+#banner_slider .item button{
+	position: relative;
+	top: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+}
+#banner_slider .item{
+	text-align: center;
+}
+#banner_slider .item button:hover{
+	background-color: rgba(150,150,150,0.8) !important;
+}
+#bnr_msg_r{
+	z-index: -1;
+	margin-top: 8px !important;	
+}
+#bnr_msg_c{
+	height: 50px;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 50px;
+	text-align: center;
+	color:#111BA5;
+}
+#rbi_msg_r{
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+	background-color: #FCFCFD
+}
+#rbi_msg_c{
+	padding-top: 50px !important;	
+	border-top: 2px solid #CCC !important;
+	border-bottom:2px solid #CCC !important;
+}
+
+#rbi_msg{
+	text-align: center;
+	font-size: 16px;
+	color:#777;
+	padding-bottom:50px !important;
+}
+#apj_pic img{
+	width:300px;
+}
+#apj_msg{
+	text-align: center;
+}
+#apj_msg{
+	text-align: left;
+	font-family: 'Lato';
+	color:#111BA5;
+	font-size: 20px;
+}
+#rbi_msg span{
+	color:#111BA5 !important;
+} 
+#apj_msg span{
+	color:#FF6500 !important;
+	font-style: italic;
+}
+#ri_intent_r{
+	background-color: #FFFFDF;
+}
+#ri_intent_c{
+	text-align: center;
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+}
+#ri_intent_c h2,#ri_intent_c h3{
+	color:#FF6500;
+}
+#ri_intent_c p{
+	color:#555;
+	font-size: 16px;
+	text-align: left;
+	word-break: break-all;	 
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+   hyphens: auto;
+}
+#ri_intent_c p span{ 
+		font-weight:bold;
+		color:#00B9E9;
+}
+#upcoming_events_r{
+	padding:25px 0px 25px 0px !important;
+	background-color:#f4f9ff;
+}
+#upcoming_events_c{
+	padding:25px 0px 75px 0px !important;
+	border-top: 2px solid #AAA !important;
+	border-bottom: 2px solid #AAA !important;
+}
+#upcoming_events_c h2{
+	color:#FF6500;
+	text-align: center;
+	margin-bottom:25px;
+}
+#upcoming_events_c div#event_banner{
+	height: 300px;
+	border: 1px #BBB solid;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;	
+	font-size: 40px;
+	text-shadow:2px 2px #FF6500,3px 3px black; 
+	line-height:300px;	
+}
+#footer_grid_container{
+  height:100px;
+  background-color:#111B59 !important;
+  color: white;
+}
+
+.footer_link_column{
+  line-height: 60px;
+  text-align: left;  
+}
+.footer_link{  
+  font-size: 13px;
+}
+
+#footer_row a{  
+  color:white;
+  position: relative;
+}
+#footer_row a:hover{
+  border-bottom:1px white solid !important;
+}
+#copy_right_column{  
+  font-size:12px;
+}
+#copy_right{
+  float: left;
+}
+#terms_privacy{
+  position: absolute;
+  right: 80px;
+}
+#terms_privacy a{
+  color: white !important;
+}
