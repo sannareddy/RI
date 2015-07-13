@@ -1,0 +1,219 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link href="Semantic/semantic.min.css" rel="stylesheet"/>
+		<link href="Styles/common.css" rel="stylesheet"/>
+		<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+		<link href="Styles/programs.css" rel="stylesheet"/>
+		<link href="Styles/robotzindia.css" rel="stylesheet"/>
+		<link href="Styles/owl.carousel.css" rel="stylesheet">
+		<link href="Styles/owl.theme.css" rel="stylesheet">
+		<link href="Styles/owl.transitions.css" rel="stylesheet">
+		<title>
+			RaifIndia->RobotzIndia
+		</title>
+	</head>
+	<body lang="en">
+        <div id="whole_body_container"> 			
+			<div class="ui grid" id="main_g">
+				<div class="row" id="header_r">
+					<div class="two wide column" id="left_spacer">
+						
+					</div>
+					<div class="twelve wide column">
+						<div class="ui grid">
+							<div class="ten wide column" id="robotz_india_logo">
+								<img src="./Images/robotzindia_logo.png"/>
+							</div>
+							<div class="six wide column" id="header_links">
+								<span><a href="#">LOGIN</a></span>
+								<span><a href="#">REGISTER</a></span>								
+							</div>
+						</div>
+					</div>
+					<div class="two wide column">
+							
+					</div>
+				</div>	
+				<div class="row" id="main_menu_r">												
+					<div class="sixteen wide column" id="main_menu_c">
+						<div class="ui inverted menu" id="main_menu">								
+							<div class="item" id="menu_left_spacer"></div>
+							<div class="ui dropdown item">
+								COMPETITION
+								<i class="dropdown icon"></i>
+								<div class="menu">
+									<a class="item">Robotzland</a>
+									<a class="item">Robotzspace</a>
+									<a class="item">MyInnovation</a>
+								</div>
+							</div>							
+							<a class="item">KEY DATES</a>
+							<a class="item">DOWNLOADS</a>
+							<a class="item">HELP US</a>
+							<div class="ui dropdown item">
+								ABOUT
+								<i class="dropdown icon"></i>
+								<div class="menu">
+									<a class="item">LINK LINK LINK</a>
+									<a class="item">LINK</a>
+									<a class="item">LINK</a>
+								</div>
+							</div>				
+							<div class="item" style="width:10.33%"></div>
+							<a class="item"><i class="facebook icon"></i></a>
+							<a class="item"><i class="twitter icon"></i></a>
+							<div class="item">
+								<div class="ui icon input">
+									<input type="text" placeholder="Search..." id="search_box">
+									<i class="search icon"></i>
+								</div>
+							</div>
+						</div>
+					</div>						
+				</div>	
+				<div class="row">
+					<div class="sixteen wide column">
+						<div id="banner_slider" class="owl-carousel">
+							<div id="slide_one" class="item">								
+								<button class="ui inverted basic button">Know More</button>								
+							</div>
+							<div id="slide_two" class="item">
+								<button class="ui inverted basic button">Know More</button>
+							</div>
+							<div id="slide_three" class="item">
+								<button class="ui inverted basic button">Know More</button>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="row" id="bnr_msg_r">
+					<div class="sixteen wide column" id="bnr_msg_c">
+						"Competition brings out the best of one's ever seen skill"
+					</div>
+				</div>
+				<div class="row" id="rbi_msg_r">
+					<div class="two wide column">
+					</div>
+					<div class="twelve wide column" id="rbi_msg_c">
+						<div class="ui grid">							
+							<p id="rbi_msg" class="sixteen wide column">
+								<span>CREATIVITY</span> and <span>INNOVATION</span> forms the nucleus whether it is a toy that moves around amusing the kids or a huge humanoid with artificial intelligence.to ignite the inherent creativity in today's students and to empower them as tomorrow's enviable scientists of our Country, RAIF is Organizing a nationwide robotics competition for school students to encourage and bring out the hidden "Little Scientists" in them - from Simple to Complex and from Small to Large designs and applications. 
+							</p>
+							<div class="six wide column" id="apj_pic">
+								<img src="./Images/kalam1.png"/>
+							</div>	
+							<div class="ten wide column" id="apj_msg">
+								Competition is powered by Knowledge, <br/>
+								Knowledge is powered by Technology,  <br/>
+								Technology is powered by Innovation  <br/>
+								<span>- Dr. APJ Kalam </span>								
+							</div>
+						</div>
+					</div>
+					<div class="two wide column">
+					</div>
+				</div>
+				<div class="row" id="ri_intent_r">
+					<div class="two wide column">						
+					</div>
+					<div class="twelve wide column" id="ri_intent_c">						
+						<h2>RobotzIndia</h2>
+						<p>RobotzIndia V3.0 provides the inspiring students, a chance and opportunity to show what they can give to this advent - to bring new ideas to the fore, to design and formulate a novel technology, to raise the bar to where it has never been before - and take one step further in creating the ultimate man machine.</p>
+						<p>RobotzIndia V3.0 presents the challenging competition under the theme of <span>"Robotz Land"</span>. Robotz Land is the competition which enables the students to build the robots which is operating, manipulating, interfacing and functioning on land related domain fields. It's a place for fun and adventure. Hope everyone eagers to taste the same. So, here is your chance of exhibiting yourself and stand a loft among others! </p>
+						<p>Robotz Land introduces three different competition which are far different from each other. It's a game filled with challenges. So, get ready. Explore yourself. And showcase yourself to the world.</p> <p>
+						<p>Robotzindia V3.0 presents the theme <span>'Robotz Space'</span>. Robotz Space is all about engaging students to explore the world of space and the emerging technology behind it. It's a challenging and a brainstorming innovative game which brings the student a real view of aerospace world. Curious about making your own robot to explore the space. Here is your space. Students can make, fly and operate their own robots in the challenging atmosphere given to the student. Let's fly!!</p> <p>
+						<p>To encourage and bring out the hidden "Little Scientists" in students - from Simple to Complex and from Small to Large designs and applications, RobotzIndia V3.0 presents 'My Innovation' challenge.</p> <p>Students are encouraged to present their innovative ideas and projects which can produce an impact to the world. Here comes the <span>"Yotta Innovation"</span>.</p> 
+						<h3>Let's create a revolution in robotics!</h3>	
+					</div>
+					<div class="two wide column">						
+					</div>					
+				</div>
+				<div class="row" id="upcoming_events_r">
+					<div class="two wide column">
+					</div>
+					<div class="twelve wide column" id="upcoming_events_c">
+						<h2>Upcoming Events</h2>
+						<div id="event_banner">
+							RobotzIndia v3.0 Is Up and Running 
+						</div>
+					</div>
+					<div class="two wide column">
+					</div>
+				</div>
+				<div class="row no_margin no_padding no_border" id="footer_grid_container_row">
+					
+					<div class="sixteen wide column no_margin no_padding no_border" id="footer_grid_container_column">
+						<div id="footer_grid_container">
+							<div class="ui grid no_margin no_padding no_border" id="footer_grid">
+								<div class="row no_margin no_padding no_border" id="footer_row">
+									<div class="one wide column footer_link_column">
+										
+									</div>
+									<div class="one wide column footer_link_column">
+										
+									</div>	
+									<div class="one wide column footer_link_column">
+										<div class="footer_link" id="footer_blog_link">
+											<a href="#">Blog</a>
+										</div>
+									</div>
+									<div class="one wide column footer_link_column">
+										<div class="footer_link" id="footer_donate_link">
+											<a href="#">Donate</a>
+										</div>
+									</div>
+									<div class="one wide column footer_link_column">
+										<div class="footer_link" id="footer_tools_link">
+											<a href="#">Tools</a>
+										</div>
+									</div>
+									<div class="two wide column footer_link_column">
+										<div class="footer_link" id="footer_press_center_link">
+											<a href="#">Press Center</a>
+										</div>
+									</div>
+									<div class="one wide column footer_link_column">
+										<div class="footer_link" id="footer_careers_link">
+											<a href="#">Careers</a>
+										</div>
+									</div>
+									<div class="one wide column footer_link_column">
+										<div class="footer_link" id="footer_subscribe_link">
+											<a href="#">Subscribe</a>
+										</div>
+									</div>
+									<div class="four wide column footer_link_column">
+										
+									</div>
+									<div class="two wide column footer_link_column">
+										
+									</div>
+								</div>
+								<div class="row no_margin no_padding no_border" id="copy_right_row">
+									<div class="two wide column">
+									</div>
+									<div class="twelve wide column no_margin no_padding no_border" id="copy_right_column">
+										<div class="copy_right" id="copy_right">&copy; www.robotzindia.org 2015, the raif logo and other program logos are trademarks of raifindia.org</div>
+										<div id="terms_privacy"><a href="#">Privacy & Terms</a></div>
+									</div>
+									<div class="two wide column">
+									</div>
+								</div>								
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>        
+		<script src="Scripts/jQuery.js"></script>		
+		<script src="Semantic/semantic.min.js"></script>				
+		<script src="Scripts/owl.carousel.min.js"></script>
+		<script src="Scripts/programs.js"></script>		
+		<script src="Scripts/robotzindia.js"></script>		
+		
+	</body>
+</html>										
