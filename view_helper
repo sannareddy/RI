@@ -1,0 +1,74 @@
+<?php
+require_once("Db.php");
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(-1);
+if($_SERVER['REQUEST_METHOD']=='GET'){
+    if(isset($_GET['ineed'])){
+        if($_GET["ineed"]=="themes"){
+            header('Content-Type: application/json');
+            $data=fetch_themes();
+            echo($data);	
+        }
+    }else{
+        echo "Send in right format";
+    }
+}elseif($_SERVER['REQUEST_METHOD']=='POST'){
+    if(isset($_POST['ineed'])){
+        if($_POST['ineed']=="createteam"){
+            $data=create_team();   
+            print_r($data);
+        }else{
+            
+        }
+    }else{
+        echo 'Send in right format-->POST'    ;
+        $params = json_decode(file_get_contents('php://input'),true);
+        //json_decode($params["data"]->team_name));
+        $a=json_decode(json_encode(json_decode($params["data"])));
+        print_r($a->users);
+        
+    }
+}
+function fetch_teams($set_id){
+	$db=new Db();	
+	$connection=$db->get_connection();	
+	
+	if($connection === false){
+		die("Could not connect to database".mysqli_connect_error());
+	}
+	$query_string="SELECT team.team_id,team.team_name,team.team_title,rcm.member_name team_lead_name,team.alternate_mail_id,team.team_size,team.activation_status FROM raif_teams team LEFT OUTER JOIN raif_club_members rcm ON team.team_lead_id=rcm.member_id WHERE team.set_id=".$_SESSION['set_id'];
+	
+	if($result=$connection->query($query_string)){
+		if($result->num_rows>0){
+			$data=$result->fetch_all(MYSQLI_ASSOC);			
+		}	
+	}	
+	echo json_encode($data);
+	$db->close();
+}
+function fetch_notifications($set_id,$team_id){
+	$db=new Db();	
+	$connection=$db->get_connection();	
+	if($connection === false){
+		die("Could not connect to database".mysqli_connect_error());
+	}
+}
+function fetch_themes(){
+	$db=new Db();	
+	$themes=null;
+	$connection=$db->get_connection();		
+	if($connection === false){
+		die("Could not connect to database".mysqli_connect_error());
+	}
+	$query_string="SELECT fetch_all_themes() as result";
+	if($result=$connection->query($query_string)){			 
+		$themes=$result->fetch_assoc();		
+	}
+	return $themes['result'];	
+}
+function create_team(){
+    $teamJSON=$_POST["team_info"];
+    $teamArray=json_decode(teamJSON);
+    return $teamArray;
+}
