@@ -1,0 +1,31 @@
+stdClass Object
+(
+    [team_name] => Joomba
+    [team_size] => 2
+    [theme_id] => 
+    [category_id] => 
+    [users] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [username] => Vamsi
+                    [mailid] => thevamsi@live.com
+                    [contact_no] => 8122418186
+                    [is_lead] => 
+                    [$$hashKey] => object:4
+                )
+
+            [1] => stdClass Object
+                (
+                    [username] => Sankar
+                    [mailid] => sankar4u@hotmail.com
+                    [contact_no] => 7842650789
+                    [is_lead] => 
+                    [$$hashKey] => object:31
+                )
+
+        )
+
+    [selectedtheme] => 1
+    [selectedcategory] => 2
+)
