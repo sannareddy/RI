@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link href="styles/common.css" rel="stylesheet"/>			
+		<link href="styles/theme.css" rel="stylesheet"/>			
+		<link href="styles/index.css" rel="stylesheet"/>
+		<link href="semantic/semantic.min.css" rel="stylesheet"/>	
+	</head>
+	<body data-ng-app="eedapp">
+		<div class="ui grid" ng-controller="parentctrl as parent">
+			<div class="row" id="header_row">
+				<div class="two wide column">
+					<img ng-src="{{parent.company_logo}}" alt="{{parent.company_title}}" class="comp_title company_logo"/>
+				</div>
+				<div class="twelve wide column">
+					
+				</div>
+				<div class="two wide column">
+					<div class="hamburger_icon">
+						<div class="ham_line"></div>
+						<div class="ham_line"></div>
+						<div class="ham_line"></div>
+					</div>			
+				</div>				
+			</div>
+			<div class="body_row row">
+                <div class="sixteen wide column">
+                    <form class="ui form" id="user_login_form" novalidate>
+                        <div class="field">                            
+                            <input name="username" placeholder="Username" type="text" required>
+                        </div>
+                        <div class="field">                            
+                            <input name="password" placeholder="Password" type="password" required>
+                        </div>
+                        <button class="ui htc button" type="submit">Submit</button>
+                    </form>
+                    <img ng-src="{{parent.footer_img}}" class="footer_image"/>
+                </div>
+			</div>
+			<div class="footer_row row">
+				<div class="sixteen wide column">
+                    &copy;HTC Global Services, 2015 
+                </div>                
+			</div>            
+		</div>
+	</body>
+	<script src="jslib/jquery.min.js"></script>
+	<script src="jslib/angular.min.js"></script>
+	<script src="semantic/semantic.min.js"></script>
+	<script src="customjs/controllers/parentctrl.js"></script>
+	<script src="customjs/centralapp.js"></script>
+	<script src="customjs/index.js"></script>
+</html>
