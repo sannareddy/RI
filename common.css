@@ -1,0 +1,54 @@
+body{
+	background-color: white !important;
+}
+.ui.grid,.row,.column{
+	margin:0px !important;
+	padding:0px !important;
+	border:0px !important;
+}
+.comp_title{
+	font-size:30px;
+	color:#002A5C;	
+	padding-left:20%;
+}
+.hamburger_icon{
+	position: absolute;
+	right: 20%;
+	
+}
+.hamburger_icon .ham_line{
+	height:3px;
+	width:25px;
+	background-color: #002A5C;
+	margin-bottom: 2px;
+	border-radius: 2px 2px 2px 2px;
+}
+#header_row{
+	height:50px;
+	position: fixed;
+	z-index: 1000;
+	top:2%;
+}
+.footer_row{
+	color:#002A5C;
+	padding-left: 2.5% !important;;
+}
+
+#user_login_form{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}                   
+.body_row{
+	padding-top:280px !important;
+}
+.company_logo{
+	padding-top: 0px !important;	
+	height: 70px !important;
+}
+.footer_image{
+	position: absolute !important;
+	height: 150px;
+	right: 0px;
+	bottom:-30px;
+}
