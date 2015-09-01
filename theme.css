@@ -1,0 +1,20 @@
+input,select,textarea{
+	border-color: #888 !important;
+}
+input:focus,select:focus,textarea:focus{
+	border-color:#002A5C !important;
+	border-radius: unset !important;
+	border-left-width: 3px !important; 
+	color:#002A5C !important;
+}
+.ui.htc.button{	
+	color:#002A5C;	
+	font-weight: normal;		
+	border: 1px solid #002A5C !important;
+	background-color: white;
+}
+.ui.htc.button:hover,.ui.htc.button:focus{
+	background-color: #002A5C;	
+	color:white;
+	border-radius: unset;	
+} 
