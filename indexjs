@@ -1,0 +1,25 @@
+(
+	function(){
+		boot();
+	}	
+)();
+function boot(){
+	onloadActs();	
+}
+
+function onloadActs(){
+	applytheme();
+}
+
+function applytheme(){
+    
+	$('.hamburger_icon').hover(function(){
+		$('.ham_line').css("background-color","#FF6500");
+	},function(){
+		$('.ham_line').css("background-color","#002A5C");
+	});
+
+	$('.body_row').css("min-height",$(window).height()-30)
+}
+
+
