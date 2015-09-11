@@ -1,0 +1,81 @@
+    width: 100%;
+    display: block;
+    padding-bottom: 1em;
+  }
+  .site_main .profile_content .user_hold .social_list > .header {
+    text-align: center;
+  }
+  .site_main .profile_content .content_info > .grid {
+    margin: 0;
+  }
+  .site_main .profile_content .content_info > .grid > .column {
+    width: 100%;
+    display: block;
+    padding: 1em;
+    border-right: none !important;
+  }
+  .site_main .profile_content .content_info > .grid > .column:first-of-type {
+    border-bottom: 1px solid #c1c1c1;
+  }
+  .site_main .profile_content .organization_box > .head {
+    padding: 1em;
+  }
+  .site_main .profile_content .organization_box > .head > .header {
+    font-size: 16px;
+  }
+  .site_main .profile_content .organization_box > .head > .logo {
+    display: none;
+  }
+  .site_main .profile_content .organization_box > .content {
+    padding: 1em;
+  }
+  .site_main .profile_content .organization_box > .content p {
+    font-size: 14px;
+    line-height: 1.3em;
+  }
+  .site_main .profile_content .organization_box .content_info > .grid > .column {
+    padding: 1em;
+  }
+  .site_main .profile_content .segment > .header {
+    font-size: 20px;
+  }
+  .site_main .profile_content .segment > .tags_list > .item {
+    padding: .5em;
+  }
+  .site_main .profile_content .segment .organization_table .table-body-scroll {
+    height: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  [class*="col-lg-3"] {
+    width: 18.75%!important;
+  }
+  [class*="col-lg-6"] {
+    width: 37.5%!important;
+  }
+  [class*="col-lg-7"] {
+    width: 43.75%!important;
+  }
+  [class*="col-lg-9"] {
+    width: 56.25%!important;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  [class*="col-sm-3"] {
+    width: 18.75%!important;
+  }
+  [class*="col-sm-6"] {
+    width: 37.5%!important;
+  }
+  [class*="col-sm-7"] {
+    width: 43.75%!important;
+  }
+  [class*="col-sm-16"] {
+    width: 100%!important;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) and screen and (max-width: 767px) {
+  [class*="col-xs-16"] {
+    width: 100% !important;
+  }
+}
