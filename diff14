@@ -1,0 +1,200 @@
+}
+  .site_main .sidebar .ui.form .fields > .thirteen.wide.field {
+    width: 81.25% !important;
+  }
+  .site_main .sidebar .ui.form .three.wide.field {
+    width: 18.75% !important;
+  }
+  .site_main .sort_hold {
+    text-align: center;
+  }
+  .site_main .site_content .wrapper_content {
+    padding: 0;
+  }
+  .site_main .site_content .table_hold {
+    margin-bottom: 0;
+    height: auto;
+    overflow: visible !important;
+  }
+  .site_main .site_content .table_hold .table {
+    table-layout: auto;
+    width: 100%;
+  }
+  .site_main .site_content .table_hold .table > thead > tr > td,
+  .site_main .site_content .table_hold .table > tbody > tr > td,
+  .site_main .site_content .table_hold .table > thead > tr > th,
+  .site_main .site_content .table_hold .table > tbody > tr > th {
+    min-height: 35px;
+    padding: .6em 1em !important;
+    padding-left: 50% !important;
+    font-size: 14px;
+    text-align: left !important;
+    position: relative;
+  }
+  .site_main .site_content .table_hold .table > thead > tr > td:nth-child(1),
+  .site_main .site_content .table_hold .table > tbody > tr > td:nth-child(1),
+  .site_main .site_content .table_hold .table > thead > tr > th:nth-child(1),
+  .site_main .site_content .table_hold .table > tbody > tr > th:nth-child(1) {
+    padding-left: 1em !important;
+  }
+  .site_main .site_content .table_hold .table > thead > tr > td:nth-child(1):before,
+  .site_main .site_content .table_hold .table > tbody > tr > td:nth-child(1):before,
+  .site_main .site_content .table_hold .table > thead > tr > th:nth-child(1):before,
+  .site_main .site_content .table_hold .table > tbody > tr > th:nth-child(1):before {
+    left: 40px ;
+    padding-left: 0 !important;
+  }
+  .site_main .site_content .table_hold .table > thead > tr > td:nth-child(2),
+  .site_main .site_content .table_hold .table > tbody > tr > td:nth-child(2),
+  .site_main .site_content .table_hold .table > thead > tr > th:nth-child(2),
+  .site_main .site_content .table_hold .table > tbody > tr > th:nth-child(2) {
+    padding-left: 1em !important;
+  }
+  .site_main .site_content .table_hold .table > thead > tr > td:before,
+  .site_main .site_content .table_hold .table > tbody > tr > td:before,
+  .site_main .site_content .table_hold .table > thead > tr > th:before,
+  .site_main .site_content .table_hold .table > tbody > tr > th:before {
+    position: absolute;
+    top: .4em;
+    left: 0;
+    content: attr(data-title);
+    padding-left: 1em;
+    width: 50%;
+    display: block;
+    font-size: 14px;
+  }
+  .site_main .site_content .table_hold .table > thead th {
+    display: none !important;
+  }
+  .site_main .site_content .table_hold .table > thead th:first-child {
+    padding: 1em !important;
+    display: block !important;
+  }
+  .site_main .site_content .table_hold .table > thead th:first-child:before {
+    top: 1em;
+  }
+  .site_main .site_content .table_hold .table > thead th a {
+    display: inline-block;
+  }
+  .site_main .site_content .pagination_hold {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .site_main .site_content .pagination .item {
+    display: none;
+  }
+  .site_main .site_content .pagination .item.next,
+  .site_main .site_content .pagination .item.prev,
+  .site_main .site_content .pagination .item.first,
+  .site_main .site_content .pagination .item.last {
+    display: block;
+  }
+  .site_main .profile_content {
+    padding: 1em 1em 2em !important;
+  }
+  .site_main .profile_content > .grid > .row > .column {
+    padding-bottom: 1em;
+  }
+  .site_main .profile_content .sort_hold {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .site_main .profile_content .content_info > .grid {
+    margin: 0;
+  }
+  .site_main .profile_content .content_info > .grid > .column {
+    width: 100%;
+    display: block;
+    padding: 1em;
+    border-right: none !important;
+  }
+  .site_main .profile_content .content_info > .grid > .column:first-of-type {
+    border-bottom: 1px solid #c1c1c1;
+  }
+  .site_main .profile_content .user_hold > .item > .content {
+    padding-left: 0;
+  }
+  .site_main .profile_content .user_hold > .item > .content > .header {
+    display: block;
+    text-align: center;
+  }
+  .site_main .profile_content .user_hold > .item > .content > .meta {
+    text-align: center;
+  }
+  .site_main .profile_content .note_hold > .input {
+    margin-top: 1em;
+  }
+  .site_main .profile_content .segment .social_profiles tr {
+    padding: .5em 0;
+    border-bottom: 1px solid #c1c1c1;
+  }
+  .site_main .profile_content .segment .social_profiles td {
+    padding: .5em 1em;
+  }
+  .site_main .profile_content .segment .social_profiles td:last-child {
+    box-shadow: none;
+  }
+  .site_main .profile_content .segment .gallery_slider {
+    margin-top: 10px;
+  }
+  .site_main .profile_content .segment .accordion > .content input[type="text"] {
+    width: 100%;
+  }
+  .site_main .profile_content .segment .accordion > .content .input i.icon {
+    top: 0;
+    bottom: auto;
+  }
+  .site_main .profile_content .segment .button.view_profile {
+    width: 100%;
+  }
+  .ui.grid > .column:not(.row),
+  .ui.grid > .row > .column {
+    width: 100% !important;
+    padding: 0;
+  }
+  .mCSB_container {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .site_main .site_content .pagination_hold .sort_dropdown {
+    display: block;
+    width: 100%;
+    float: none;
+  }
+  .site_main .site_content .pagination_hold .pagination {
+    display: block;
+  }
+  .site_main .site_content .pagination_hold .pagination:before,
+  .site_main .site_content .pagination_hold .pagination:after {
+    content: " ";
+    display: table;
+  }
+  .site_main .site_content .pagination_hold .pagination:after {
+    clear: both;
+  }
+  .site_main .site_content .pagination_hold .pagination .item {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+  }
+  .site_main .site_content .pagination_hold .pagination .item.next {
+    float: right;
+  }
+  .site_main .site_content .pagination_hold .pagination .item.first,
+  .site_main .site_content .pagination_hold .pagination .item.last {
+    display: none;
+  }
+  .site_main .profile_content .button {
+    width: 100%;
+  }
+  .site_main .profile_content .user_hold > .item > .content > .extra {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site_main .profile_content .user_hold .social_list {
