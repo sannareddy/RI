@@ -1,1 +1,2 @@
 https://github.com/alvarotrigo/fullPage.js --> Fullpage vertical scrolling
+http://www.fontfabric.com/downfont/rafale.zip  --> Free Font
