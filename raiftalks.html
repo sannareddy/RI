@@ -1,0 +1,38 @@
+<div class="container-fluid whole_page raiftalks" data-ng-controller="raiftalkCtrl as raiftalk">
+    <div class="row full_ht section" ng-scrollbars ng-scrollbars-config="config"  id="page_header">
+        <div class="col-xs-12 col-sm-12">
+            <div class="row" id="menu_bar">
+                <div class="col-xs-7 col-sm-5 col-md-3 logo_holder">
+                    <img src="images/raif_new_logo.png" id="raif_logo"/>
+                </div>
+                <div class="col-xs-offset-1 col-xs-3 col-sm-offset-4 col-sm-2 col-md-offset-8 col-md-1 menu_ham_holder">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>                    
+                </div>
+            </div>
+            <div class="row" id="title_bar">
+                <div class="col-xs-12 col-sm-12 act_title">
+                        Raif talks
+                </div>
+            </div>
+            <div class="row" id="benefits">
+                <div class="col-xs-12 col-sm-12">
+                    <ul id="benefits_ul" class="styled_points">
+                        <li data-ng-repeat="benefit in raiftalk.benefits track by $index">{{benefit}}</li>
+                    </ul>                            
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="row section full_ht">
+        <div class="col-zs-12 col-sm-12">
+                Second Page
+        </div>
+    </div>         
+</div>
+<script>
+     $('.whole_page').fullpage({
+                verticalCentered: false,
+				css3:false,
+                scrollBar: false
+     });
+</script>
