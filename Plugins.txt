@@ -3,3 +3,4 @@ http://www.fontfabric.com/downfont/rafale.zip  --> Free Font
 https://codeload.github.com/FezVrasta/bootstrap-material-design/zip/master --> Materialize Bootstrap 
 http://www.google.co.in/imgres?imgurl=https://sugarspiceandeverythingnicex.files.wordpress.com/2015/04/lonelinessbench.jpg&imgrefurl=https://sugarspiceandeverythingnicex.wordpress.com/tag/abandonment/&h=1120&w=1492&tbnid=LYgm-AxkBfID5M:&docid=U_HLQTj33H99OM&ei=-r9NVvjBGsyTuAT4wLSQCw&tbm=isch&ved=0CAcQMygEMAQ4rAJqFQoTCPim7PS9nMkCFcwJjgodeCANsg
 http://scn.sap.com/community/abap/blog/2014/05/21/a-complete-guide-to-opensql-statements--step-by-step-tutorial-with-screenshots
+https://scn.sap.com/thread/711633
