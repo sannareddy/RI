@@ -1,0 +1,127 @@
+{ 
+    "$error": {
+                "required": [ 
+                        { 
+                            "$validators": {}, 
+                            "$asyncValidators": {},
+                            "$parsers": [],
+                            "$formatters": [ null ],
+                            "$viewChangeListeners": [], 
+                            "$untouched": true,
+                            "$touched": false,
+                            "$pristine": true,
+                            "$dirty": false,
+                            "$valid": false,
+                            "$invalid": true,
+                            "$error":{ 
+                                    "required": true 
+                            }, 
+                            "$name": "username",
+                            "$options": null 
+                         },
+                         { 
+                            "$validators": {}, 
+                            "$asyncValidators": {}, 
+                            "$parsers": [], 
+                            "$formatters": [ null ], 
+                            "$viewChangeListeners": [], 
+                            "$untouched": true, 
+                            "$touched": false, 
+                            "$pristine": true, 
+                            "$dirty": false, 
+                            "$valid": false, 
+                            "$invalid": true, 
+                            "$error": { 
+                                "required": true 
+                            }, 
+                            "$name": "email", 
+                            "$options": null 
+                        }, 
+                        { 
+                            "$validators": {}, 
+                            "$asyncValidators": {}, 
+                            "$parsers": [], 
+                            "$formatters": [ null ], 
+                            "$viewChangeListeners": [], 
+                            "$untouched": true, 
+                            "$touched": false, 
+                            "$pristine": true, 
+                            "$dirty": false, 
+                            "$valid": false, 
+                            "$invalid": true, 
+                            "$error": { 
+                                "required": true 
+                            }, 
+                            "$name": "password", 
+                            "$options": null 
+                        } 
+                ] 
+        }, 
+        "$name": "regForm", 
+        "$dirty": false, 
+        "$pristine": true, 
+        "$valid": false, 
+        "$invalid": true, 
+        "$submitted": false, 
+        "username": { 
+                "$validators": {}, 
+                "$asyncValidators": {}, 
+                "$parsers": [], 
+                "$formatters": [ null ], 
+                "$viewChangeListeners": [], 
+                "$untouched": true, 
+                "$touched": false, 
+                "$pristine": true, 
+                "$dirty": false, 
+                "$valid": false, 
+                "$invalid": true, 
+                "$error": { "required": true }, 
+                "$name": "username", "$options": null 
+        }, 
+        "email": {
+                "$validators": {},
+                "$asyncValidators": {}, 
+                "$parsers": [], 
+                "$formatters": [ null ], 
+                "$viewChangeListeners": [], 
+                "$untouched": true, 
+                "$touched": false, 
+                "$pristine": true, 
+                "$dirty": false, 
+                "$valid": false, 
+                "$invalid": true, 
+                "$error": { "required": true }, 
+                "$name": "email", "$options": null 
+        }, 
+        "password": { 
+                "$validators": {}, 
+                "$asyncValidators": {}, 
+                "$parsers": [], 
+                "$formatters": [ null ], 
+                "$viewChangeListeners": [], 
+                "$untouched": true, 
+                "$touched": false, 
+                "$pristine": true, 
+                "$dirty": false, 
+                "$valid": false, 
+                "$invalid": true, 
+                "$error": { "required": true }, 
+                "$name": "password", "$options": null 
+        }, 
+        "service": { 
+                "$validators": {}, 
+                "$asyncValidators": {}, 
+                "$parsers": [], 
+                "$formatters": [ null ], 
+                "$viewChangeListeners": [], 
+                "$untouched": true, 
+                "$touched": false, 
+                "$pristine": true, 
+                "$dirty": false, 
+                "$valid": true, 
+                "$invalid": false, 
+                "$error": {}, 
+                "$name": "service", 
+                "$options": null 
+                } 
+}
