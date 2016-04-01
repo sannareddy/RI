@@ -13,3 +13,4 @@ http://js-grid.com/
 https://github.com/FezVrasta/bootstrap-material-design
 https://github.com/angular/material
 http://www.mastertheboss.com/jboss-jbpm/jbpm6/jbpm-6-web-application-example
+https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_BPM_Suite/6.2/html/Development_Guide/index.html
