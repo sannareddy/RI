@@ -16,3 +16,4 @@ http://www.mastertheboss.com/jboss-jbpm/jbpm6/jbpm-6-web-application-example
 https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_BPM_Suite/6.2/html/Development_Guide/index.html
 https://www.google.co.in/search?q=high+resolution+images&biw=1600&bih=775&tbm=isch&tbo=u&source=univ&sa=X&sqi=2&ved=0ahUKEwiN3tjZwprNAhWFqY8KHdd-DfoQsAQILA#tbm=isch&tbs=rimg%3ACaWJ_1YR1wUV8Ijj6Om8YFSmnmPFMPRl6HKrPbbkbdlGDhL-72ddqUX37GHnWCpt9qZT6JYEI3bwtZigJTjw9wC00syoSCfo6bxgVKaeYEUAZjibfgAopKhIJ8Uw9GXocqs8RQIBKnKCiF8wqEgltuRt2UYOEvxG_1gEon_1WN-OyoSCbvZ12pRffsYEbptkb2u34lfKhIJedYKm32plPoR3oniIl2Zq3IqEgklgQjdvC1mKBE0M3Z3cDQTnyoSCQlOPD3ALTSzEcwjskQYDNnY&q=indian%20villages%20today&imgrc=_
 https://docs.google.com/document/u/1/d/1RIezQqE4aEhBRmArIAS1mRIZtWFf6JxN_7B4meyWK0Y/pub
+https://www.barbarianmeetscoding.com/blog/2016/07/07/updating-your-angular-2-app-to-use-the-new-router/
